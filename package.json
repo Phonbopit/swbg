@@ -1,0 +1,16 @@
+{
+  "name": "swap-bg",
+  "version": "1.0.0",
+  "description": "Background Color Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Background",
+    "Color",
+    "Generator"
+  ],
+  "author": "Chai Phonbopit",
+  "license": "MIT"
+}
