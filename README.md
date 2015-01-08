@@ -27,14 +27,14 @@ Pure Node.js
 
 ```javascript
 var http = require('http');
-var swbg = require('swap-bg');
+var swbg = require('swbg');
 
 http.createServer(function(req, res) {
 	res.write(swbg());
 	res.end();
 }).listen(5000, '127.0.0.1');
 
-console.log("swap-bg is awesome :)");
+console.log("swbg is awesome :)");
 ```
 
 With Express
@@ -42,14 +42,14 @@ With Express
 ```javascript
 var express = require('express');
 var app = express();
-var swbg = require('swap-bg');
+var swbg = require('swbg');
 
 app.get('/', function(req, res) {
 	res.send(swbg());
 });
 
 app.listen(5000, function() {
-	console.log("swap-bg is awesome :)");
+	console.log("swbg is awesome :)");
 })
 ```
 
