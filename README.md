@@ -1,4 +1,4 @@
-Swap BG
+SWBG
 ===
 
 Background Color Generator, random background color on every refresh page.
