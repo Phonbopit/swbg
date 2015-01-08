@@ -1,10 +1,22 @@
 Swap BG
 ===
 
-Background Color Generator
+Background Color Generator, random background color on every refresh page.
 
 
 ## Usage
+
+```javascript
+var swbg = require('swbg');
+
+// print html code
+console.log(swbg());
+
+// print RBGA color
+console.log(swbg.color());
+```
+
+## Example
 
 Pure Node.js
 

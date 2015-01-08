@@ -2,7 +2,7 @@
   "name": "swap-bg",
   "version": "1.0.0",
   "description": "Background Color Generator",
-  "main": "index.js",
+  "main": "swbg.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
