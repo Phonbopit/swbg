@@ -12,7 +12,7 @@ module.exports = function() {
 	var rgba = generateColor();
 
 	var html = 	'<!DOCTYPE html><html><head>' +
-			'<title>Background Color Generator</title></head>' +
+			'<title>swbg : Background Color Generator</title></head>' +
 			'<body><script type="text/javascript">' + 
 			'document.body.style.backgroundColor = "' + rgba + '"' +
 			'</script></body></html>';
