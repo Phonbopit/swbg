@@ -17,11 +17,14 @@ var swbg = require('swbg');
 // print html code with material color background
 console.log(swbg());
 
-// print RBGA color
+// Random all color
 console.log(swbg.color());
 
+// print RBGA color
+console.log(swbg.getColor());
+
 // print material color
-console.log(swbg.material());
+console.log(swbg.getMaterial());
 ```
 
 ## Example

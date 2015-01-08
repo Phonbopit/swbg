@@ -6,11 +6,11 @@ http.createServer(function(req, res) {
 	res.end();
 }).listen(5000, '127.0.0.1');
 
-
-console.log(swbg());
-
-// Generate RGBA 
+// HTML with random color
 console.log(swbg.color());
 
+// Generate RGBA 
+console.log(swbg.genColor());
+
 // Generate Material
-console.log(swbg.material());
+console.log(swbg.genMaterial());
