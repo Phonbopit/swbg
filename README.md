@@ -1,12 +1,12 @@
 swbg
 ===
 
-Background Color Generator, random background color on every refresh page.
+Material Color Background Color Generator, random background color on every refresh page.
 
 ## Installation
 
 ```
-npm install --save swbg
+npm install swbg
 ```
 
 ## Usage
@@ -14,11 +14,14 @@ npm install --save swbg
 ```javascript
 var swbg = require('swbg');
 
-// print html code
+// print html code with material color background
 console.log(swbg());
 
 // print RBGA color
 console.log(swbg.color());
+
+// print material color
+console.log(swbg.material());
 ```
 
 ## Example
@@ -50,8 +53,10 @@ app.get('/', function(req, res) {
 
 app.listen(5000, function() {
 	console.log("swbg is awesome :)");
-})
+});
 ```
+
+> Google's material design colors from [Material Palette](http://www.google.com/design/spec/style/color.html#color-ui-color-palette)
 
 ## LICENSE
 
