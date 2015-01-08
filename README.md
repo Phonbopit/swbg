@@ -3,6 +3,11 @@ Swap BG
 
 Background Color Generator, random background color on every refresh page.
 
+## Installation
+
+```
+npm install --save swbg
+```
 
 ## Usage
 
